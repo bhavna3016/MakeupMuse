@@ -5,7 +5,7 @@ import { useFormik } from "formik";
 import * as yup from "yup";
 import { toast } from "react-toastify";
 import { useCart } from "../Component/cartContext";
-import { useAuth } from "../Component/AuthContext";
+import { useAuth } from "../Component/authContext";
 
 export const Checkout = () => {
   const { cartItems, cartTotal, clearCart } = useCart();
