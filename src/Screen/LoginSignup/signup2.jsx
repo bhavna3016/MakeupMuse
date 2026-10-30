@@ -4,7 +4,7 @@ import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useFormik } from "formik";
 import { toast } from "react-toastify";
-import { useAuth } from "../../Component/AuthContext";
+import { useAuth } from "../../Component/authContext";
 
 export const Signup = () => {
   const navigate = useNavigate();

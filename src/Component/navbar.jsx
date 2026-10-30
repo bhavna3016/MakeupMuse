@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import { useCart } from "./cartContext";
-import { useAuth } from "./AuthContext";
+import { useAuth } from "./authContext";
 
 import {
   Search,

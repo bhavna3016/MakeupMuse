@@ -3,7 +3,7 @@ import { toast } from "react-toastify";
 import * as yup from "yup";
 import { useState } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
-import { useAuth } from "../../Component/AuthContext";
+import { useAuth } from "../../Component/authContext";
 import { useFormik } from "formik";
 
 export const Login = () => {

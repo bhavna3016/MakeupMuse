@@ -8,7 +8,7 @@ import { Signup } from "./Screen/LoginSignup/signup2";
 import { Login } from "./Screen/LoginSignup/login2";
 import { GlobalSearch } from "./Screen/GobalSearch/globalsearch";
 import { Checkout } from "./Screen/checkout";
-import { useAuth } from "./Component/AuthContext";
+import { useAuth } from "./Component/authContext";
 import { Navigate, useLocation } from "react-router-dom";
 import { cleanserData,moisturizerData,sunscreenData,} from "./Screen/CategoryData/skin";
 import { offersData, under249Data,} from "./Screen/CategoryData/offerAnd249";
