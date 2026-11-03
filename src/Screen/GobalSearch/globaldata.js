@@ -1,4 +1,4 @@
-import { lipstickData,lipLinerData } from "../CategoryData/lipData";
+import { lipstickData,lipLinerData } from "../CategoryData/lipdata";
 
 import { foundationData, blushData, concealerData } from "../CategoryData/face";
 import {

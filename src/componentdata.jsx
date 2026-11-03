@@ -1,4 +1,4 @@
-import { Announcement } from "./Component/announcement";
+
 import { Home } from "./Screen/home";
 import { Product } from "./Screen/Products";
 import { Routes, Route } from "react-router-dom";
@@ -8,14 +8,14 @@ import { Signup } from "./Screen/LoginSignup/signup2";
 import { Login } from "./Screen/LoginSignup/login2";
 import { GlobalSearch } from "./Screen/GobalSearch/globalsearch";
 import { Checkout } from "./Screen/checkout";
-import { useAuth } from "./Component/authContext";
+import { useAuth } from "./Component/authcontext";
 import { Navigate, useLocation } from "react-router-dom";
 import { cleanserData,moisturizerData,sunscreenData,} from "./Screen/CategoryData/skin";
 import { offersData, under249Data,} from "./Screen/CategoryData/offerAnd249";
 import {  makeupKitData, comboData,} from "./Screen/CategoryData/gift";
 import {blushData,concealerData,foundationData,} from "./Screen/CategoryData/face";
 import { nailPolishData } from "./Screen/CategoryData/naildata";
-import {lipstickData,lipLinerData,} from "./Screen/CategoryData/lipData";
+import {lipstickData,lipLinerData,} from "./Screen/CategoryData/lipdata";
 import { eyelinerData,eyeshadowData,mascaraData,kajalData,} from "./Screen/CategoryData/eyedata";
 
 export const Components=()=>{
@@ -40,7 +40,7 @@ export const Components=()=>{
   return (
     <>
 
-      <Announcement />   
+       
       <Routes>
       <Route path="/search" element={<GlobalSearch />} />
 
