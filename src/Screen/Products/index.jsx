@@ -34,7 +34,7 @@ export const Product = ({ title, products = [], banner }) => {
         <img
           src={banner}
           alt={title}
-          className="h-120 w-full object-cover"
+         className="h-auto w-full object-contain md:h-120 md:object-cover"
         />
       )}
 
@@ -58,7 +58,7 @@ export const Product = ({ title, products = [], banner }) => {
         </select>
       </div>
 
-      <div className="grid min-w-0 grid-cols-1 gap-8 px-2 py-8 md:grid-cols-[220px_minmax(0,1fr)] md:px-4 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-4">
+      <div  className="grid min-w-0 grid-cols-1 gap-8 px-2 py-2 md:grid-cols-[220px_minmax(0,1fr)] md:px-4 md:py-8 lg:grid-cols-[240px_minmax(0,1fr)] lg:gap-4">
         <aside className="h-fit min-w-0 self-start md:sticky md:top-24">
           <div className="border-b border-gray-300 pb-1">
             <h2 className="mb-5 text-sm tracking-[3px]">
@@ -134,7 +134,7 @@ export const Product = ({ title, products = [], banner }) => {
 
         <section className="min-w-0">
           {filteredProducts.length > 0 ? (
-            <div className="grid min-w-0 grid-cols-2 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+            <div className="grid min-w-0 grid-cols-1 gap-x-4 gap-y-8 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
               {filteredProducts.map((item) => (
                 <div key={item.id} className="min-w-0 bg-gray-50 border border-gray-200 rounded-md">
                   <div className="relative overflow-hidden rounded-t-xl">

@@ -14,30 +14,32 @@ export const ProductDetail = ({ product, onClose }) => {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-center justify-center overflow-y-auto bg-black/60 p-4"
+      className="fixed inset-0 z-[100] flex items-center justify-center overflow-y-auto bg-black/60 p-3 sm:p-4"
       onClick={onClose}
     >
       <div
-        className="relative grid w-full max-w-4xl grid-cols-1 overflow-hidden rounded-xl bg-white md:grid-cols-2"
+        className="relative my-auto grid w-full max-w-4xl grid-cols-1 overflow-visible rounded-xl bg-[#fff7f9] shadow-xl md:grid-cols-2"
         onClick={(e) => e.stopPropagation()}
       >
+        
         <button
+          type="button"
           onClick={onClose}
-          className="absolute right-4 top-3 z-10 text-3xl text-gray-600 hover:text-black"
+          className="absolute right-3 top-3 z-[110] flex h-10 w-10 items-center justify-center rounded-full bg-white text-3xl leading-none text-gray-700 shadow-md hover:text-black"
           aria-label="Close product details"
         >
           &times;
         </button>
 
-        <div className="flex min-w-0 items-center justify-center bg-[#fff7f9] p-4">
+        <div className="flex min-w-0 items-center justify-center rounded-t-xl bg-[#fff7f9] p-4 md:rounded-l-xl md:rounded-tr-none">
           <img
             src={product.image}
             alt={product.name}
-            className="h-80 w-full max-w-full object-contain md:h-[450px]"
+            className="h-64 w-full max-w-full object-contain sm:h-80 md:h-[450px]"
           />
         </div>
 
-        <div className="flex min-w-0 flex-col justify-center  bg-[#fff7f9]  p-6 md:p-8">
+        <div className="flex min-w-0 flex-col justify-center bg-[#fff7f9] p-6 pt-16 md:p-8 md:pt-8">
           {product.badge && (
             <span className="mb-3 w-fit rounded bg-black px-3 py-1 text-sm text-white">
               {product.badge}

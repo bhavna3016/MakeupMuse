@@ -29,7 +29,7 @@ export const bannerData = {
   Eyeliner: {
     title: "EYELINERS",
     description: "Create everything from subtle lines to bold wings.",
-    image: "https://www.tbcosmeticsofficial.com/cdn/shop/files/TB_Lashes_Liner_rebrand_banner_2023-12-20.jpg?v=1703125321&width=3840",
+    image: "https://www.newu.in/cdn/shop/collections/M-Banner-For-All_94813b4c-4e35-4017-9757-60dab3269d26.jpg?v=1566556538",
   },
   Mascara: {
     title: "MASCARA",
@@ -39,7 +39,7 @@ export const bannerData = {
   Eyeshadow: {
     title: "EYESHADOW",
     description: "Blend colours and create your signature eye look.",
-    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsso-mwfHhPc7RMzYZm26LMvg_iM_vZiMDK06dNRi5xg&s=10",
+    image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpDUjvSzP4wuj_M8cqz3yaGmIlzapVmlstNi7c6eMP4GTVUqSqZMayHL-U&s=10",
   },
 
   
@@ -51,7 +51,7 @@ export const bannerData = {
   Concealer: {
     title: "CONCEALER",
     description: "Conceal, brighten and complete your makeup look.",
-    image: "https://cdn.vectorstock.com/i/1000v/22/11/concealer-makeup-cream-promotional-banner-vector-36922211.jpg",
+    image: "https://media6.ppl-media.com/mediafiles/ecomm/promo/1636973935_concealer-amazon-a-banner-1.jpg",
   },
   Blush: {
     title: "BLUSH",
@@ -70,29 +70,29 @@ export const bannerData = {
   Cleanser: {
     title: "CLEANSERS",
     description: "Cleanse away the day and refresh your skin.",
-    image: "https://cdn.tirabeauty.com/v2/billowing-snowflake-434234/tira-p/wrkr/platform/extensions/widget-manager/free/original/G68X4r3f3-Rice-Range-Top-Banner-Desktop.jpg",
+    image: "https://letshyphen.com/cdn/shop/files/Rice_Water_Cleanser_Collection_Page_-_Desktop_1_1500x.webp?v=1793138158",
   },
   Moisturizer: {
     title: "MOISTURIZERS",
     description: "Keep your skin feeling soft, fresh and hydrated.",
-    image: "https://thumbs.dreamstime.com/z/cosmetic-products-vector-banner-template-cosmetics-product-mock-up-lotion-moisturizer-sun-protection-bottle-elements-170874020.jpg",
+    image: "https://www.biotique.com/cdn/shop/files/Moisturizer_Banner_1_Desktop_1800x.jpg?v=1789976601",
   },
   Sunscreen: {
     title: "SUNSCREEN",
     description: "Make sun protection part of your daily routine.",
-    image: "https://img.magnific.com/free-vector/realism-hand-drawn-horizontal-banner_23-2150216885.jpg?semt=ais_hybrid&w=740&q=80",
+    image: "https://img.magnific.com/free-vector/realistic-sunscreen-product-promo_52683-62426.jpg?semt=ais_hybrid&w=740&q=80",
   },
 
   
   Combo: {
     title: "BEAUTY COMBOS",
     description: "Your favourite beauty essentials, together.",
-    image: "https://ibacosmetics.com/cdn/shop/collections/Make_Up_Combos_Banner-1_225c1920-cc84-46bf-ba9b-3e4883c4d18f.webp?v=1768484900",
+    image: "https://swissbeauty.in/cdn/shop/collections/all-kits-gifts-swiss-beauty.jpg?v=1706773452",
   },
   MakeupKit: {
     title: "MAKEUP KITS",
     description: "Everything you need to create your signature look.",
-    image: "https://ibacosmetics.com/cdn/shop/collections/category_banner-01_1200x1200_crop_center.jpg?v=1744699669",
+    image: "https://www.sugarcosmetics.com/cdn/shop/collections/Welcome-offer-10--Off-LP1600x400_1.jpg?v=1733728614&width=1600",
   },
 
   UNDER249STORE: {
@@ -105,7 +105,7 @@ export const bannerData = {
   OFFERS: {
     title: "BEAUTY DEALS YOU'LL LOVE",
     description: "Explore exciting offers on your beauty favourites.",
-    image: "https://static.vecteezy.com/system/resources/previews/026/568/498/non_2x/beauty-make-up-banner-template-cosmetic-products-on-wavy-background-in-nude-skin-tone-colours-advertising-poster-design-for-beauty-store-blog-offers-and-promotion-illustration-free-vector.jpg",
+    image: "https://www.sugarcosmetics.com/cdn/shop/collections/20--OFF-LP-1600x400_f49ad1e1-14a3-4be7-b992-4bf026c6c03c.jpg?crop=center&height=1200&v=1749442790&width=1200",
   },
   
 };

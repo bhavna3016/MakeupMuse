@@ -39,7 +39,7 @@ export const Footer = () => {
   return (
     <footer className="bg-black text-white mt-12">
       <div className="max-w-7xl mx-auto px-6 md:px-12 py-9">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8  text-center">
           <div>
             <Link to="/">
             <h2 className="text-3xl font-extrabold tracking-wider">
@@ -54,23 +54,23 @@ export const Footer = () => {
             <h3 className="text-xs font-semibold tracking-widest mt-5 mb-3">
               FOLLOW US
             </h3>
-            <div className="flex gap-4 items-center">
-        <a
-          href="https://www.instagram.com/trysugar/"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Instagram"
-          className="text-xl hover:text-white text-bold transition"
-        >
-          ◎
-        </a>
+            <div className="flex items-center justify-center gap-4 text-center">
+  <a
+    href="https://www.instagram.com/trysugar/"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Instagram"
+    className="flex h-8 w-8 items-center justify-center text-xl transition hover:text-gray-400"
+  >
+    ◎
+  </a>
 
   <a
     href="https://www.facebook.com/trySUGAR/"
     target="_blank"
     rel="noopener noreferrer"
     aria-label="Facebook"
-    className="text-lg font-bold hover:text-pink-400 transition"
+    className="flex h-8 w-8 items-center justify-center text-lg font-bold transition hover:text-gray-400"
   >
     f
   </a>
@@ -80,7 +80,7 @@ export const Footer = () => {
     target="_blank"
     rel="noopener noreferrer"
     aria-label="YouTube"
-    className="text-lg hover:text-pink-400 transition"
+    className="flex h-8 w-8 items-center justify-center text-lg transition hover:text-gray-400"
   >
     ▶
   </a>
@@ -90,7 +90,7 @@ export const Footer = () => {
     target="_blank"
     rel="noopener noreferrer"
     aria-label="X"
-    className="text-lg font-bold hover:text-pink-400 transition"
+    className="flex h-8 w-8 items-center justify-center text-lg font-bold transition hover:text-gray-400"
   >
     𝕏
   </a>
