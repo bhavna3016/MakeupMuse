@@ -160,7 +160,7 @@ export const newLaunchData = [
 export const bestSellerData = [
   {
     id: 1,
-    name: "Matte Attack Transferproof Lipstick",
+    name: "Matte Transferproof Lipstick",
     image: "https://www.sugarcosmetics.com/cdn/shop/files/Mettle-Liquid-Lipstick-2_6f375609.jpg?v=1793270095&width=500",
     category: "Lipstick",
     badge: "BESTSELLER",
